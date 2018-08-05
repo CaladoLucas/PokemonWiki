@@ -14,5 +14,11 @@ class MainActivity : AppCompatActivity() {
         btnBulbassaur.setOnClickListener{
             startActivity(Intent(this,BulbassaurActivity::class.java))
         }
+        btnCharmander.setOnClickListener{
+            startActivity(Intent(this,CharmanderActivity::class.java))
+        }
+        btnSquirtle.setOnClickListener{
+            startActivity(Intent(this,SquirtleActivity::class.java))
+        }
     }
 }
