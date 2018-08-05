@@ -18,4 +18,12 @@ class Api {
     fun loadBulba(cb:Callback<JsonObject>){
         service.bulbassaur().enqueue(cb)
     }
+
+    fun loadCharmander(cb:Callback<JsonObject>){
+        service.bulbassaur().enqueue(cb)
+    }
+
+    fun loadSquirtle(cb:Callback<JsonObject>){
+        service.bulbassaur().enqueue(cb)
+    }
 }
